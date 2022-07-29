@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finanças</title>
+</head>
+<body>
+    <h1>Fluxo de Caixa</h1>
+    <p>Organize suas finanças</p>
+
+
+    <div id="vision"></div>
+    <main class="container">
+        <figure class="img">
+            <img src="img/Savings-amico.svg" alt="pig">
+        </figure>
+        <div class="content">
+            <label for="Salary">Receita</label>
+            <input type="number" name="salary" id="salary">
+
+            <label for="light">Conta de Luz</label>
+            <input type="number" name="light" id="light">
+
+            <label for="supermarket">SuperMercado</label>
+            <input type="number" name="supermarket" id="supermarket">
+
+            <label for="rent">Aluguel (opcional)</label>
+            <input type="number" name="rent" id="rent">
+
+            <label for="card">Cartão de crédito</label>
+            <input type="number" name="card" id="card">
+
+            <label for="net">Internet</label>
+            <input type="number" name="net" id="net">
+
+            <label for="others">Outros tipos de contas</label>
+            <input type="number" name="others" id="others">
+
+           
+            
+            <input type="button" value="Calcular" onclick="sum()" id="btn">
+        </div>
+
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
