@@ -1,0 +1,41 @@
+@media(max-width: 800px){
+    .img{
+        display: none;
+    }
+
+    body{
+        width: auto;
+    }
+    .content{
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #vision{
+        width: auto;
+    }
+    .content{
+        width: auto;
+        height: auto;
+    }
+}
+@media(max-width: 330px){
+
+    .content{
+        width: 250px;
+        height: auto;
+    }
+    input{
+        width: 200px;
+    }
+    #btn{
+        width: 200px;
+    }
+}
